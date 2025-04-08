@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" 
+         version="5.0"> 
+    <display-name>ExamenS4</display-name>
+
+    <servlet>
+        <servlet-name>Auth</servlet-name>
+        <servlet-class>servlet.AuthServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Auth</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping> 
+
+
+    <servlet>
+        <servlet-name>Prevision</servlet-name>
+        <servlet-class>servlet.PrevisionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Prevision</servlet-name>
+        <url-pattern>/savePrevision</url-pattern>
+    </servlet-mapping>
+
+    
+    <servlet>
+        <servlet-name>FormEmp</servlet-name>
+        <servlet-class>Servlet.EmpFormServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FormEmp</servlet-name>
+        <url-pattern>/FormEmp.html</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FormEmp</servlet-name>
+        <url-pattern>/editEmploye</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DepenseForm</servlet-name>
+        <servlet-class>servlet.DepenseFormServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DepenseForm</servlet-name>
+        <url-pattern>/depenseForm</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Depense</servlet-name>
+        <servlet-class>servlet.DepenseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Depense</servlet-name>
+        <url-pattern>/saveDepense</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RecapitulatifServlet</servlet-name>
+        <servlet-class>servlet.RecapitulatifServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RecapitulatifServlet</servlet-name>
+        <url-pattern>/recapitulatif</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LogOut</servlet-name>
+        <servlet-class>servlet.Logout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogOut</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+</web-app>

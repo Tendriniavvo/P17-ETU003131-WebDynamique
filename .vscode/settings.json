@@ -1,0 +1,15 @@
+{
+    "java.project.sourcePaths": [
+        "src\\main\\java"
+    ],
+    "java.project.referencedLibraries": [
+        "d:\\ITU\\L2\\S4\\Servlet\\ExamenS4\\lib\\jakarta.servlet-api_5.0.0.jar",
+        "c:\\jakarta.servlet-api_5.0.0.jar",
+        "c:\\mysql-connector-j-9.1.0.jar",
+        "c:\\ojdbc6.jar",
+        "d:\\ITU\\L2\\S4\\Servlet\\ExamenS4\\lib\\servlet-api.jar",
+        "c:\\servlet-api.jar",
+        "d:\\ITU\\L2\\S4\\Servlet\\ExamenS4\\lib\\mysql-connector-j-9.1.0.jar",
+        "d:\\ITU\\L2\\S4\\Servlet\\ExamenS4\\lib\\ojdbc6.jar"
+    ]
+}
